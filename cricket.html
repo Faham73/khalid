@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Height</title>
+    <style>
+        .field{
+            border: 1px solid wheat;
+        }
+        .lion{
+            transition: transform .2s;
+        }
+        .af{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            transition: transform ease-out 0.4s;
+        }
+        .field:hover .lion{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+        .field:hover .af{
+            transform: translate(2000px, -400px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img class="lion" src="hero.PNG" alt="">
+        <img class="af" src="Capture.PNG" alt="">
+    </div>
+</body>
+</html>
